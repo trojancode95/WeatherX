@@ -27,6 +27,9 @@
 5. Start React dev server with `npm start`
 ```
 
+```
+6. `npm run build` to build for Production
+```
 
 ##### The project has started on `localhost:3000` !!
 
