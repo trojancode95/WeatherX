@@ -1,0 +1,17 @@
+.container {
+  margin-top: 1.2rem;
+  @media only screen and (max-width: 768px) {
+    margin-top: 0.5rem;
+  }
+}
+
+.container input,
+.container ::-webkit-input-placeholder {
+  color: rgb(238, 238, 238) !important;
+}
+.container input:focus {
+  background-color: transparent;
+  color: rgb(251, 251, 251);
+  box-shadow: none !important;
+  border: none;
+}
