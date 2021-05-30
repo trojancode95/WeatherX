@@ -5,6 +5,7 @@
 - Developed this App to search Weather Conditions in **ANY CITY**. 
 - Used OpenWeatherAPI's functionality and integrated it into ReactJS. 
 - Beautified using *Bootstrap CSS Framework*.
+- Deployed it on Heroku ➡ https://trojan-weather.herokuapp.com/
 
 ### Installation Guide
 ```
