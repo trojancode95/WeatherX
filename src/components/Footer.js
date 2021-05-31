@@ -3,7 +3,6 @@ import { SiFacebook } from "react-icons/si";
 import { SiInstagram } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
 import "./Footer.css"
-import {FcEnteringHeavenAlive} from "react-icons/all";
 
 const Footer = () => {
     return (
