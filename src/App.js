@@ -3,6 +3,8 @@ import "./App.css";
 import Form from "./app_component/form";
 import Weather from "./app_component/weather";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from './components/Footer'
+import { BrowserRouter, Router } from "react-router-dom";
 
 // git project https://github.com/trojancode95/WeatherX
 import "weather-icons/css/weather-icons.css";
@@ -129,6 +131,9 @@ class App extends React.Component {
             wind_speed={this.state.wind_speed}
           />
         </div>
+        <BrowserRouter>
+          <Footer />
+        </BrowserRouter>
       </div>
     );
   }
